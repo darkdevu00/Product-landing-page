@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="company logo"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#two" class="nav-link">Features</a></li>
+          <li><a href="#three" class="nav-link">How It Works</a></li>
+          <li><a href="#four" class="nav-link">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="wrapper">
+      <div class="one">
+        <h1 id="heading">Handcrafted, home-made masterpieces</h1>
+        <div>
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter yout email"
+            />
+            <input type="submit" id="submit" />
+          </form>
+        </div>
+      </div>
+
+      <div class="two" id="two">
+        <div class="content">
+          <i class="fa fa-3x fa-fire"></i>
+          <div>
+            <p class="content-heading">Premium Materials</p>
+            <p class="content-summary">
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <i class="fa fa-3x fa-truck"></i>
+          <div>
+            <p class="content-heading">Fast Shipping</p>
+            <p class="content-summary">
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <i class="fa fa-3x fa-battery-full"></i>
+          <div>
+            <p class="content-heading">Quality Assurance</p>
+            <p class="content-summary">
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="three" id="three">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          title="YouTube video player"
+          frameborder="0"
+          id="video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="four" id="four">
+        <div class="card">
+          <div class="card-heading">TENOR TROMBONE</div>
+          <div class="card-content">
+            <div class="card-price">$600</div>
+            <div class="card-description">
+              Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+            </div>
+          </div>
+          <div>
+            <a href="/" class="card-button">SELECT</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-heading">BASS TROMBONE</div>
+          <div class="card-content">
+            <div class="card-price">$900</div>
+            <div class="card-description">
+              Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+            </div>
+          </div>
+          <div>
+            <a href="/" class="card-button">SELECT</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-heading">VALVE TROMBONE</div>
+          <div class="card-content">
+            <div class="card-price">$1200</div>
+            <div class="card-description">
+              Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+            </div>
+          </div>
+          <div>
+            <a href="/" class="card-button">SELECT</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
